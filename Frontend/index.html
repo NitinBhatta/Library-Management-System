@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Library Management System</h1>
+
+    <!-- Book Form -->
+    <form id="bookForm">
+      <input type="text" id="title" placeholder="Book Title" required />
+      <input type="text" id="author" placeholder="Author" required />
+      <input type="text" id="genre" placeholder="Genre" required />
+      <input type="number" id="year" placeholder="Published Year" required />
+      <input type="text" id="borrower" placeholder="Borrower (optional)" />
+      <input type="date" id="dueDate" />
+      <button type="submit">➕ Add Book</button>
+    </form>
+
+    <!-- Search and Filter -->
+    <div class="filter-section">
+      <input type="text" id="search" placeholder="🔍 Search by title or author..." />
+      <select id="filterStatus">
+        <option value="all">All</option>
+        <option value="available">Available</option>
+        <option value="borrowed">Borrowed</option>
+      </select>
+    </div>
+
+    <!-- Book Table -->
+    <table id="bookTable">
+      <thead>
+        <tr>
+          <th>ID</th><th>Title</th><th>Author</th><th>Genre</th><th>Year</th>
+          <th>Status</th><th>Borrower</th><th>Due Date</th><th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
