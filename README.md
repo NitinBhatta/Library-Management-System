@@ -13,7 +13,7 @@ A simple and responsive Library Management System built using HTML, CSS, and Jav
 
 ## Demo
 
-You can find a live demo of the calculator https://nitinbhatta.github.io/.
+You can find a live demo of the library management app: https://nitinbhatta.github.io/Library-Management-System/
 
 ## 🛠️ Tech Stack
 
