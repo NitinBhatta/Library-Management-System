@@ -11,6 +11,10 @@ A simple and responsive Library Management System built using HTML, CSS, and Jav
 - Data stored in browser using `localStorage`
 - Responsive UI for mobile and desktop
 
+## Demo
+
+You can find a live demo of the calculator https://nitinbhatta.github.io/.
+
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
